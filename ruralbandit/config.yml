@@ -1,0 +1,32 @@
+baseURL: ""
+languageCode: en-us
+title: RuralBandit
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "Welcome to RuralBandit's Hideout"
+    Content: Checkout my monthly devlogs here. If you are a journalist, you can find my presskit above!
+  socialIcons:
+  - name: instagram
+    url: "https://www.instagram.com/ruralbandit_/"
+  - name: twitter
+    url: "https://twitter.com/RuralBandit_"
+
+
+menu: 
+  main:
+    - identifier: home
+      name: Home
+      url: //
+      weight: 10
+    - identifier: presskit
+      name: Press Kit
+      url: /presskit/
+      weight: 20
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 30
+
+   
